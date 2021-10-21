@@ -4,7 +4,7 @@
 
   tasks:
   - name: Install docker
-    yum: name=docker state=present
+    command: sudo yum install docker -y
 
   - name: Start docker
     command: sudo service docker start
