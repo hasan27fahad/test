@@ -1,6 +1,6 @@
 - hosts: demo
   become: yes
-  become_user: ansible
+  become_user: root
 
   tasks:
   - name: Install docker
